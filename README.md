@@ -22,3 +22,12 @@ I started by installing Sysmon on my windows 11 VM. Sysmon is a Windows tool tha
 
 My next step was to create a cloud based VM with Ubuntu 22.04 installed, I would use this machine as my Wazuh manager. (I used DigitalOcean for my VM's, please excuse the other two, they will come up in my Automation Project.)
 <img width="759" height="361" alt="Screenshot 2025-07-28 212829" src="https://github.com/user-attachments/assets/b4f897e2-025f-4be3-84c0-1f81e5cc2172" />
+
+Now I needed to create firewall rules for this machine so that inbound traffic was only allowed from sources that were necessary.
+<img width="2516" height="976" alt="Screenshot 2025-08-12 142657copy" src="https://github.com/user-attachments/assets/178e700f-1228-467a-b72f-2a882da23f5e" />
+
+At this point it was time to install Wazuh manager on my VM, This involved using ssh to securely connect to the machine, and run the installation command. Once wazuh was installed, the next step was to configure it. So I logged into Wazuh from my Windows VM and started by adding this machine as an agent, this was done by copying the information provided in the Wazuh dashboard, and running it in Powershell.
+
+The next step was to generate telemetry and make sure it was being ingested into Wazuh. 
+
+To start, I needed to open the ossec.conf file on my windows machine to tell Wazuh to ingest the Sysmon logs.
