@@ -64,8 +64,8 @@ Then I ran Mimikatz again with its new altered file name.
 
 <img width="610" height="172" alt="Screenshot 2025-08-07 160154" src="https://github.com/user-attachments/assets/dde8357e-2bbd-4b02-ab86-260360797a2e" />
 
-I will use this lab to create automated workflows in shuffle. You can see those steps in my SOC Automation Lab.
-
 And it worked! I got an alert in Wazuh detecting the use of Mimikatz even with an alteration to the name.
 
 <img width="763" height="512" alt="Screenshot 2025-08-07 160552" src="https://github.com/user-attachments/assets/ac77ccdf-fdd5-4673-b0ae-05842de2ac42" />
+
+I will use this lab to create automated workflows in shuffle. You can see those steps in my SOC Automation Lab.
