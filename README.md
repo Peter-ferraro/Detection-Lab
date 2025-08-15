@@ -24,7 +24,7 @@ My next step was to create a cloud based VM with Ubuntu 22.04 installed, I would
 
 <img width="759" height="361" alt="Screenshot 2025-07-28 212829" src="https://github.com/user-attachments/assets/b4f897e2-025f-4be3-84c0-1f81e5cc2172" />
 
-Now I needed to create firewall rules for this machine so that inbound traffic was only allowed from sources that were necessary.
+Now I needed to create firewall rules for this machine so that inbound traffic was only allowed from sources that were necessary. (note: I took these screenshots after completing the labs. the custom rules were not applied until later, when I needed to allow data from shuffle and TheHive)
 
 <img width="2516" height="976" alt="Screenshot 2025-08-12 142657copy" src="https://github.com/user-attachments/assets/178e700f-1228-467a-b72f-2a882da23f5e" />
 
