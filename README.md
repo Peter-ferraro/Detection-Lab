@@ -68,4 +68,4 @@ And it worked! I got an alert in Wazuh detecting the use of Mimikatz even with a
 
 <img width="763" height="512" alt="Screenshot 2025-08-07 160552" src="https://github.com/user-attachments/assets/ac77ccdf-fdd5-4673-b0ae-05842de2ac42" />
 
-I will use this lab to create automated workflows in shuffle. You can see those steps in my SOC Automation Lab.
+I will use this lab to create automated workflows in shuffle. You can see those steps in my <a href="https://github.com/Peter-ferraro/SOC-Automation-Lab">SOC Automation Lab</a>.
